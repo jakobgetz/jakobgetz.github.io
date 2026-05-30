@@ -18,10 +18,6 @@ export default function Navigation() {
   return (
     <header className={styles.header}>
       <div className={`${styles.navContainer} content-container`}>
-        <Link href="/" className={styles.logo}>
-          JG<span className={styles.logoDot}>.</span>
-        </Link>
-        
         <nav className={styles.nav}>
           {navItems.map((item) => {
             const isActive = pathname === item.path || (item.path !== "/" && pathname.startsWith(item.path));
