@@ -1,0 +1,148 @@
+.header {
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.backButton {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+  display: inline-flex;
+  transition: var(--transition-fast);
+}
+
+.backButton:hover {
+  transform: translateX(-4px);
+  color: var(--accent-color-hover);
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.tags {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tag {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.title {
+  font-size: clamp(2.25rem, 5vw, 3.25rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  border-left: 3px solid var(--accent-color);
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.body {
+  padding: 2.5rem;
+  margin-bottom: 5rem;
+  line-height: 1.75;
+  font-size: 1.05rem;
+}
+
+.body:hover {
+  transform: none; /* Disable 3D tilt on reading card */
+  border-color: var(--border-subtle);
+  box-shadow: var(--shadow-sm);
+}
+
+.postParagraph {
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.postH1 {
+  font-size: 1.85rem;
+  margin: 2.5rem 0 1rem 0;
+  font-weight: 750;
+}
+
+.postH2 {
+  font-size: 1.45rem;
+  margin: 2rem 0 1rem 0;
+  font-weight: 700;
+}
+
+.postH3 {
+  font-size: 1.2rem;
+  margin: 1.5rem 0 0.75rem 0;
+  font-weight: 700;
+}
+
+.postUl {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.postUl li {
+  margin-bottom: 0.5rem;
+}
+
+.inlineCode {
+  background: var(--bg-surface-hover);
+  border: 1px solid var(--border-subtle);
+  padding: 0.15rem 0.4rem;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  color: var(--accent-color);
+}
+
+.codeBlock {
+  background: #0f0e15; /* Dark background always for code blocks */
+  color: #c9c7db;
+  border: 1px solid #232230;
+  padding: 1.25rem;
+  border-radius: var(--radius-md);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  line-height: 1.5;
+}
+
+.codeBlock code {
+  color-scheme: dark; /* Force scrollbars etc to use dark rules inside code blocks */
+}
+
+.inlineLink {
+  color: var(--accent-color);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.inlineLink:hover {
+  color: var(--accent-color-hover);
+}
+
+.spacer {
+  height: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .body {
+    padding: 1.5rem;
+  }
+}

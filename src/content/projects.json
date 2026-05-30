@@ -1,0 +1,27 @@
+[
+  {
+    "id": "antigravity",
+    "title": "Antigravity Compiler",
+    "description": "An experimental, type-safe compiler optimizing WebAssembly targets, written completely in Rust. Features advanced static analysis and dead-code elimination.",
+    "tags": ["Rust", "WebAssembly", "Compilers"],
+    "github": "https://github.com/jakobgetz/antigravity",
+    "demo": "https://compiler.getz.dev",
+    "featured": true
+  },
+  {
+    "id": "distributed-kv",
+    "title": "HydraKV",
+    "description": "A lightweight distributed transactional key-value store in Go implementing Raft consensus for fault tolerance and linearizable reads.",
+    "tags": ["Go", "Raft", "Distributed Systems"],
+    "github": "https://github.com/jakobgetz/hydra-kv",
+    "featured": true
+  },
+  {
+    "id": "neural-render",
+    "title": "SpectraRender",
+    "description": "A high-fidelity neural rendering pipeline for generating 3D scenes from sparse photo inputs, leveraging customized NeRF architectures.",
+    "tags": ["Python", "PyTorch", "Computer Vision"],
+    "github": "https://github.com/jakobgetz/spectra-render",
+    "featured": false
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "Jakob Getz",
+  "title": "Software Engineer & Researcher",
+  "avatar": "/avatar.jpg",
+  "bio": "I am a software engineer and researcher focused on building modern web systems, distributed computing, and intelligent applications. I work with Next.js, TypeScript, Go, and Python. When I'm not writing code, you can find me reading academic papers or hacking on open source projects.",
+  "socials": {
+    "github": "https://github.com/jakobgetz",
+    "twitter": "https://twitter.com/jakobgetz",
+    "linkedin": "https://linkedin.com/in/jakobgetz",
+    "email": "mailto:jakob@getz.dev"
+  }
+}

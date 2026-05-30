@@ -1,0 +1,89 @@
+.header {
+  padding: 4rem 0 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 700px;
+}
+
+.grid {
+  margin-bottom: 5rem;
+}
+
+.projectHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.projectTitle {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.featuredBadge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  background: var(--accent-glow);
+  color: var(--accent-color);
+  border: 1px solid var(--border-glow);
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: var(--bg-surface-hover);
+  color: var(--text-secondary);
+  padding: 0.15rem 0.6rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+}
+
+.description {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.links a {
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+}

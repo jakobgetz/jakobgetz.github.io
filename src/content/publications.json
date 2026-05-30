@@ -1,0 +1,22 @@
+[
+  {
+    "id": "neural-compilers-2025",
+    "title": "Optimizing WebAssembly Execution via Neural Block Compilers",
+    "authors": ["Jakob Getz", "Alice Vance", "Bob Smith"],
+    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+    "year": 2025,
+    "abstract": "We present a novel approach to optimizing WebAssembly bytecode translation using machine learning architectures. By training neural models on control flow graph heuristics, we achieve a 14% improvement in execution speed across standard compute benchmarks.",
+    "doi": "https://doi.org/10.1145/asplos.2025.12345",
+    "pdf": "https://arxiv.org/pdf/2501.12345"
+  },
+  {
+    "id": "raft-optimizations-2024",
+    "title": "State Machine Replication at Sub-Millisecond Latencies",
+    "authors": ["Jakob Getz", "Dmitri Ivanov"],
+    "venue": "IEEE Transactions on Parallel and Distributed Systems (TPDS)",
+    "year": 2024,
+    "abstract": "Traditional consensus protocols introduce significant coordination overheads. This paper explores a hybrid consensus algorithm combining optimistic execution with classic Raft mechanisms to reduce tail latencies in local area database nodes.",
+    "doi": "https://doi.org/10.1109/tpds.2024.54321",
+    "pdf": "https://arxiv.org/pdf/2402.54321"
+  }
+]

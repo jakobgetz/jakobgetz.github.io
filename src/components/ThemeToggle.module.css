@@ -1,0 +1,65 @@
+.toggleBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.85rem;
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.85rem;
+  transition: var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+  outline: none;
+}
+
+.toggleBtn:hover {
+  background: var(--bg-surface-hover);
+  border-color: var(--accent-color);
+  box-shadow: var(--shadow-glow);
+}
+
+.toggleBtn:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.toggleIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.sunIcon,
+.moonIcon {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.toggleBtn:hover .sunIcon {
+  transform: rotate(45deg);
+}
+
+.toggleBtn:hover .moonIcon {
+  transform: rotate(-15deg) scale(1.1);
+}
+
+.toggleText {
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+}
+
+.placeholder {
+  width: 72px;
+  height: 38px;
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  opacity: 0.5;
+}
